@@ -83,20 +83,12 @@
 .examples-list {
     display: flex;
     flex-wrap: wrap;
+    gap: 30px;
 }
 
 .examples-item {
     width: 370px;
-    margin-right: 30px;
-    margin-bottom: 30px;
     background: var(--white-color);
-
-    &:nth-child(3n + 3) {
-            margin-right: 0px;
-        }
-    &:nth-child(n + 7) {
-            margin-bottom: 0px;
-        }
 
     &:hover .examples-description {
                     transform: translateY(0);

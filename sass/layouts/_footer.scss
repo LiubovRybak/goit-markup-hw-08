@@ -14,12 +14,10 @@
     color: var(--blue-color);
 }
 
-.contacts-item {
-    margin-bottom: 9px;
-
-    &:nth-child(3n) {
-            margin-bottom: 0px;
-        }
+.contacts-list {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 9px;
 }
 
 .contacts {
@@ -97,10 +95,6 @@
     align-items: center;
     justify-content: center;
     margin-left: 70px;
-}
-
-.contacts-list {
-    display: inline-block;
 }
 
 .container-contacts {
