@@ -71,6 +71,67 @@
             >
           </li>
         </ul>
+        <button type="button" class="menu" data-menu-open>
+          <svg class="menu-open" width="40" height="40">
+            <use href="./img/symbol-defs.svg#menu"></use>
+          </svg>
+        </button>
+      </div>
+      <div class="mob-menu is-hidden" data-menu>
+        <div class="container mob-menu-container">
+          <button type="button" class="menu-close" data-menu-close>
+            <svg class="close-buttton" width="40" height="40">
+              <use href="./img/symbol-defs.svg#close-menu"></use>
+            </svg>
+          </button>
+          <div class="mob-menu-top">
+            <ul class="mob-menu-list list">
+              <li class="mob-menu-item">
+                <a href="./index.html" class="mob-menu-text link">Студія</a>
+              </li>
+              <li class="mob-menu-item">
+                <a href="./portfolio.html" class="mob-menu-text link"
+                  >Портфоліо</a
+                >
+              </li>
+              <li class="mob-menu-item">
+                <a href="#" class="mob-menu-text link">Контакти</a>
+              </li>
+            </ul>
+          </div>
+          <div class="mob-menu-bottom">
+            <ul class="mob-contact-list list">
+              <li class="mob-contact-item">
+                <a class="mob-contact-tel link" href="tel:+380961111111">
+                  +38 096 111 11 11</a
+                >
+              </li>
+              <li class="mob-contact-item">
+                <a
+                  class="mob-contact-mail link"
+                  href="mailto:info@devstudio.com"
+                  lang="en"
+                >
+                  info@devstudio.com</a
+                >
+              </li>
+            </ul>
+            <ul class="mob-soc-list list">
+              <li class="mob-soc-item">
+                <a class="mob-soc link" href="#" lang="en">Instagram</a>
+              </li>
+              <li class="mob-soc-item">
+                <a class="mob-soc link" href="#" lang="en">Twitter</a>
+              </li>
+              <li class="mob-soc-item">
+                <a class="mob-soc link" href="#" lang="en">Facebook</a>
+              </li>
+              <li class="mob-soc-item">
+                <a class="mob-soc link" href="#" lang="en">LinkedIn</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </header>
     <main>
@@ -138,7 +199,7 @@
           </ul>
         </div>
       </section>
-      <section class="about">
+      <!-- <section class="about">
         <div class="container about__container">
           <h2 class="about__text">Чим ми займаємося</h2>
           <ul class="about__list list">
@@ -171,8 +232,8 @@
             </li>
           </ul>
         </div>
-      </section>
-      <section class="team">
+      </section> -->
+      <!-- <section class="team">
         <div class="container container-team">
           <h2 class="team-title">Наша команда</h2>
           <ul class="team-list list">
@@ -354,8 +415,8 @@
             </li>
           </ul>
         </div>
-      </section>
-      <section class="clients">
+      </section> -->
+      <!-- <section class="clients">
         <div class="container container-clients">
           <h2 class="clients-title">Постійні клієнти</h2>
           <div class="container-clients-list">
@@ -405,9 +466,9 @@
             </ul>
           </div>
         </div>
-      </section>
+      </section> -->
     </main>
-    <footer class="footer">
+    <!-- <footer class="footer">
       <div class="container container-contacts">
         <div>
           <a href="./index.html" lang="en" class="footer-logo link"
@@ -493,7 +554,7 @@
           </form>
         </div>
       </div>
-    </footer>
+    </footer> -->
 
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
@@ -590,5 +651,6 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>

@@ -9,6 +9,7 @@
 
 @import './utils/vars';
 @import './utils/hidden';
+@import './utils/breakpoints';
 
 
 @import './layouts/header';
@@ -19,3 +20,4 @@
 @import './layouts/clients';
 @import './layouts/footer';
 @import './layouts/portfolio';
+@import './layouts/menu';
