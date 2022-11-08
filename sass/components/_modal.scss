@@ -18,6 +18,11 @@
     .backdrop.is-hidden & {
             transform: translate(-50%, -50%) scale(0);
         }
+
+        @media screen and (max-width: 1199px) {
+            width: 450px;
+            height: 609px;
+        }
 }
 
 
@@ -190,6 +195,11 @@ textarea {
 
          .input-check:focus+&>.square {
              border-color: var(--blue-color);
+         }
+
+         @media screen and (max-width: 1599px) {
+            font-size: 12px;
+                line-height: 1.17;
          }
 }
 

@@ -1,53 +1,53 @@
 .benefits__container {
-    // padding-top: 94px;
-    // padding-bottom: 94px;
     display: block;
     margin-top: 60px;
-    margin-bottom: 60px;
+
+    @media screen and (min-width: 1200px) {
+        padding: 94px 215px;
+                 }
 }
 
 .benefit__list {
-    // display: flex;
-    // flex-direction: row;
-    // gap: 30px;
-    
+    @media screen and (min-width: 768px) {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+
+                @media screen and (min-width: 1200px) {
+                    display: flex;
+                    flex-wrap: nowrap;
+                    justify-content: center;
+                    gap: 30px;
+                }
 }
 
 .benefit__item {
-    // width: 270px;
-
+   @media screen and (min-width: 480px) {
         width: 450px;
-        margin-bottom: 30px;
-    
-    
+            margin-bottom: 30px;
+    }
+        
+        @media screen and (min-width: 768px) {
+                width: 354px;
+            }
+
+            @media screen and (min-width: 1200px) {
+                width: 270px;
+            }
 }
 
 .benefit__title {
-    // margin-bottom: 10px;
-    // font-weight: 700;
-    //     font-size: 14px;
-    //     line-height: 1.14;
-    //     letter-spacing: 0.03em;
-    //     text-transform: uppercase;
-    //     color: var(--dark-grey-color);
-
-
     font-weight: 700;
         font-size: 14px;
         line-height: 1.14;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: var(--dark-grey-color);
+        margin-bottom: 10px;
 
         text-align: center;
 }
-
-// .benefit__text {
-//     font-size: 14px;
-//     line-height: 1.71;
-//     letter-spacing: 0.03em;
-//     color: var(--light-gray-color);
-// }
 
 .benefit__text {
     font-size: 14px;
@@ -57,23 +57,22 @@
 }
 
 .benefit__picture {
-    // display: flex;
-    // align-items: center;
-
-    // background-color: var(--dirty-white-color);
-    // width: 270px;
-    // height: 120px;
-    // margin-bottom: 30px;
-
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: var(--dirty-white-color);
     
-
     width: 450px;
     height: 120px;
     margin-bottom: 30px;
+
+    @media screen and (min-width: 768px) {
+        width: 354px;
+    }
+
+        @media screen and (min-width: 1200px) {
+            width: 270px;
+        }
 }
 
 

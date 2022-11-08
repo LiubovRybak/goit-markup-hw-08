@@ -38,7 +38,7 @@
                     }
       }
 
-      @media screen and (min-width : 1600px) {
+      @media screen and (min-width : 1200px) {
         max-width: 1600px;
         padding-top: 200px;
         padding-bottom: 200px;
@@ -75,7 +75,7 @@
             
         }
 
-        @media screen and (min-width: 1600px) {
+        @media screen and (min-width: 1200px) {
             font-size: 44px;
             line-height: 1.36;
             width: 696px;
@@ -115,7 +115,7 @@
                 background-color: var(--btn-blue-color);
             }
             
-        @media screen and (min-width: 1600px) {
+        @media screen and (min-width: 1200px) {
             padding: 10px 32px;
                         }
 }
